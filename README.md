@@ -1,5 +1,6 @@
 # Self-Balancing-Height
 The primary goal is about to achieve the required height maintenance using three different terminologies i.e, PID control, fuzzy logic and ANN.
+
 1- Purpose of Project
 As the project is relying on self-balancing mechanism, the feedback will be controlled by the system itself. For this, the sensor measures the distance between the current height and target height and transmit the data to the controller. Then the controller will actuate the motor and set the thrust either high or low depending on the current position of the wooden frame to maintain the equilibrium. 
 
@@ -22,10 +23,15 @@ III- By Artificial Neural Network
 * Arduino IDE (for software purpose)
 
 4- Practical Implementation
+
 ▪ ESP32 boots the code successfully while BLDC motor and ultrasonic sensor perform well in execution in accordance with the objective.
+
 ▪ The system achieves output and gives a better response.
+
 ▪ Motor starts with base throttle 1250 us and set its PWM whatever the current height is measured.
+
 ▪ Ultrasonic sensor reads the current height and transmits the data to controller to compare it with the target.
+
 ▪ Apply the terminologies of PID, fuzzy logic and ANN to maintain the height effectively with minimum error
 
 5- Summary

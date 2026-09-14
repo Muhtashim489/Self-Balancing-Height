@@ -4,10 +4,13 @@ The primary goal is about to achieve the required height maintenance using three
 As the project is relying on self-balancing mechanism, the feedback will be controlled by the system itself. For this, the sensor measures the distance between the current height and target height and transmit the data to the controller. Then the controller will actuate the motor and set the thrust either high or low depending on the current position of the wooden frame to maintain the equilibrium. 
 
 2- Methodologies
+
 I-  By Proportional-Integral-Derivative
      Closed loop-based system to maintain the setpoint by reducing the distance error.
+     
 II- By Fuzzy logic
     Based on rules to mimic human-like decision-making.
+    
 III- By Artificial Neural Network
     A data-driven approach that adapts based on training and error correction.
 

@@ -2,6 +2,7 @@
 The primary goal is about to achieve the required height maintenance using three different terminologies i.e, PID control, fuzzy logic and ANN.
 
 1- Purpose of Project
+
 As the project is relying on self-balancing mechanism, the feedback will be controlled by the system itself. For this, the sensor measures the distance between the current height and target height and transmit the data to the controller. Then the controller will actuate the motor and set the thrust either high or low depending on the current position of the wooden frame to maintain the equilibrium. 
 
 2- Methodologies
